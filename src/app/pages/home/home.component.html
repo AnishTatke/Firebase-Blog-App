@@ -1,0 +1,11 @@
+<div *ngFor="let post of posts">
+    <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">{{ post.title }}</h4>
+          <h6 class="card-subtitle mb-2 text-muted">{{ post.author }} created post at {{post.time_created}}</h6>
+          <p class="card-text">
+            {{ post.content }}
+          </p>
+        </div>
+    </div>
+</div>

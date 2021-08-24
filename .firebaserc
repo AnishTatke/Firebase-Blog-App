@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "fir-training-b0627": {
+      "hosting": {
+        "firebase-blog": [
+          "fir-training-b0627"
+        ]
+      }
+    }
+  }
+}
