@@ -1,4 +1,4 @@
-import { environment } from './../environments/environment';
+import { environment } from 'src/environments/environment.prod';
 import { MaterialModule } from './material/material.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
